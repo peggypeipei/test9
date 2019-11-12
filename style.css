@@ -1,0 +1,173 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
+
+.main {
+  height: 400px;
+}
+.main.section1 {
+  background-color: #009BD5;
+}
+.main.section2 {
+  background-color: #E71A19;
+}
+.main.section3 {
+  background-color: #FF6426;
+}
+.main.section4 {
+  background-color: #FFF200;
+}
+
+.pic {
+  height: 400px;
+  width: 400px;
+}
+
+.button {
+  background-color: transparent;
+  font-weight: bold;
+  border: solid 2px;
+  border-radius: 5px;
+  display: inline;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 245px;
+  left: 250px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition-duration: 0.1s;
+}
+.button:hover {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 110px;
+  letter-spacing: 5px;
+  line-height: 30px;
+}
+
+.content {
+  margin: 5px;
+}
+
+.section1 .pic {
+  width: 398px;
+  height: 200px;
+  position: absolute;
+  left: 10.2%;
+  top: 200px;
+}
+.section1:hover .content h1, .section1:hover .content p, .section1:hover .content .button {
+  opacity: 1;
+}
+.section1 .content h1, .section1 .content p, .section1 .content .button {
+  opacity: 0;
+  transition-duration: 1s;
+}
+.section1 .content p, .section1 .content .button {
+  transition-delay: 0.1s;
+}
+
+.section2 .pic {
+  left: 10.1%;
+}
+.section2:hover .content h1, .section2:hover .content p, .section2:hover .content .button {
+  opacity: 1;
+}
+.section2 .content h1, .section2 .content p, .section2 .content .button {
+  opacity: 0;
+  transition-duration: 1s;
+}
+.section2 .content p, .section2 .content .button {
+  transition-delay: 0.1s;
+}
+
+.section3 .pic {
+  left: 10%;
+}
+.section3:hover .content h1, .section3:hover .content p, .section3:hover .content .button {
+  opacity: 1;
+}
+.section3 .content h1, .section3 .content p, .section3 .content .button {
+  opacity: 0;
+  transition-duration: 1s;
+}
+.section3 .content p, .section3 .content .button {
+  transition-delay: 0.1s;
+}
+
+.section4 .pic {
+  left: 10%;
+}
+.section4:hover .content h1, .section4:hover .content p, .section4:hover .content .button {
+  opacity: 1;
+}
+.section4 .content h1, .section4 .content p, .section4 .content .button {
+  opacity: 0;
+  transition-duration: 1s;
+}
+.section4 .content p, .section4 .content .button {
+  transition-delay: 0.1s;
+}
+
+.content {
+  width: 600px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.nav {
+  background-color: #a2eafa;
+  margin: 0;
+}
+.nav li.button1 {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #fff;
+  font-weight: bold;
+  left: 800px;
+  display: inline-block;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #a2eafa;
+  border-bottom: solid 7px transparent;
+}
+
+.pic1 {
+  visibility: hidden;
+}
+
+.pic2 {
+  visibility: visible;
+  margin-left: 20px;
+  margin-right: 10px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
